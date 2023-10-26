@@ -1,0 +1,119 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.navBar > div {
+    margin-top: 0px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }  
+
+    .active, .accordion:hover {
+    background-color: #ccc;
+    }
+
+
+    .panel {
+    padding: 10px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+a{
+    color: #fff;
+}
+
+    header {
+        background-color: #262727;
+        padding: 30px;
+        color: #fff;
+    }
+    
+    #profile {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        padding: 30px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+    }
+    
+    #profile img {
+        width: 150px;
+        height: 150px;
+        border-radius:70%;
+        box-shadow: 0px 3px 4px #000000;
+    }
+    
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    
+    #info h1 {
+        margin: 10;
+        font-size: 26px;
+        color: rgb(65, 65, 65);
+    }
+    
+    #info p {
+        margin: 0;
+        font-size: 18px;
+        color: #303030;
+    }
+    
+    section {
+        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        margin: 20px;
+    }
+    
+    section h2 {
+        margin: 0;
+        font-size: 24px;
+        color: #00d63d;
+        margin-bottom: 10px;
+    }
+
+    section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    section li {
+        margin-bottom: 10px;
+        color: #484848;
+    }
+    
+    section li strong {
+        display: inline-block;
+        min-width: 100px;
+    }
+    
+    section p {
+        margin: 0;
+        font-size: 18px;
+        color: #535353;
+    }
